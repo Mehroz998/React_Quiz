@@ -7,7 +7,7 @@ const Home = () => {
     const navigate = useNavigate()
     
     function handleStart(){
-        if(name == localname){
+        if(name === localname){
             navigate('/result')
         }
         else{
