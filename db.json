@@ -1,0 +1,476 @@
+{
+  "quiz": [
+      {
+          "question": "What is the capital of France?",
+          "options": [
+              "Berlin",
+              "Madrid",
+              "Paris",
+              "Lisbon"
+          ],
+          "correctOption":"Paris"
+      },
+      {
+          "question": "Which planet is known as the Red Planet?",
+          "options": [
+              "Earth",
+              "Mars",
+              "Jupiter",
+              "Saturn"
+          ],
+          "correctOption":"Mars"
+      },
+      {
+          "question": "What is the largest ocean on Earth?",
+          "options": [
+              "Atlantic Ocean",
+              "Indian Ocean",
+              "Southern Ocean",
+              "Pacific Ocean"
+          ],
+          "correctOption":"Pacific Ocean"
+      },
+      {
+          "question": "Who wrote 'Romeo and Juliet'?",
+          "options": [
+              "William Shakespeare",
+              "Mark Twain",
+              "Charles Dickens",
+              "Jane Austen"
+          ],
+          "correctOption": "William Shakespeare"
+      },
+      {
+          "question": "What is the chemical symbol for water?",
+          "options": [
+              "H2O",
+              "O2",
+              "CO2",
+              "NaCl"
+          ],
+          "correctOption": "H2O"
+      },
+      {
+          "question": "Which country is known as the Land of the Rising Sun?",
+          "options": [
+              "China",
+              "Japan",
+              "Thailand",
+              "South Korea"
+          ],
+          "correctOption": "Japan"
+      },
+      {
+          "question": "What is the hardest natural substance on Earth?",
+          "options": [
+              "Gold",
+              "Iron",
+              "Diamond",
+              "Silver"
+          ],
+          "correctOption": "Diamond"
+      },
+      {
+          "question": "Which is the longest river in the world?",
+          "options": [
+              "Amazon River",
+              "Nile River",
+              "Yangtze River",
+              "Mississippi River"
+          ],
+          "correctOption": "Nile River"
+      },
+      {
+          "question": "What is the largest mammal in the world?",
+          "options": [
+              "Elephant",
+              "Blue Whale",
+              "Giraffe",
+              "Great White Shark"
+          ],
+          "correctOption": "Blue Whale"
+      },
+      {
+          "question": "Who painted the Mona Lisa?",
+          "options": [
+              "Vincent Van Gogh",
+              "Claude Monet",
+              "Leonardo da Vinci",
+              "Pablo Picasso"
+          ],
+          "correctOption": "Leonardo da Vinci"
+      },
+      {
+          "question": "What is the smallest country in the world?",
+          "options": [
+              "Monaco",
+              "San Marino",
+              "Liechtenstein",
+              "Vatican City"
+          ],
+          "correctOption": "Vatican City"
+      },
+      {
+          "question": "What is the powerhouse of the cell?",
+          "options": [
+              "Nucleus",
+              "Ribosome",
+              "Mitochondria",
+              "Golgi Apparatus"
+          ],
+          "correctOption": "Mitochondria"
+      },
+      {
+          "question": "Which element has the chemical symbol 'O'?",
+          "options": [
+              "Oxygen",
+              "Gold",
+              "Osmium",
+              "Oxide"
+          ],
+          "correctOption": "Oxygen"
+      },
+      {
+          "question": "Which planet is closest to the Sun?",
+          "options": [
+              "Venus",
+              "Mars",
+              "Mercury",
+              "Earth"
+          ],
+          "correctOption": "Mercury"
+      },
+      {
+          "question": "Who was the first President of the United States?",
+          "options": [
+              "Thomas Jefferson",
+              "John Adams",
+              "Benjamin Franklin",
+              "George Washington"
+          ],
+          "correctOption": "George Washington"
+      },
+      {
+          "question": "Which organ is responsible for pumping blood throughout the body?",
+          "options": [
+              "Liver",
+              "Lungs",
+              "Heart",
+              "Kidney"
+          ],
+          "correctOption": "Heart"
+      },
+      {
+          "question": "What is the tallest mountain in the world?",
+          "options": [
+              "K2",
+              "Kangchenjunga",
+              "Mount Everest",
+              "Lhotse"
+          ],
+          "correctOption": "Mount Everest"
+      },
+      {
+          "question": "What is the main ingredient in guacamole?",
+          "options": [
+              "Tomato",
+              "Onion",
+              "Avocado",
+              "Lemon"
+          ],
+          "correctOption": "Avocado"
+      },
+      {
+          "question": "Who discovered penicillin?",
+          "options": [
+              "Marie Curie",
+              "Isaac Newton",
+              "Albert Einstein",
+              "Alexander Fleming"
+          ],
+          "correctOption": "Alexander Fleming"
+      },
+      {
+          "question": "What is the currency of Japan?",
+          "options": [
+              "Yen",
+              "Won",
+              "Peso",
+              "Ruble"
+          ],
+          "correctOption": "Yen"
+      },
+      {
+          "question": "What is the capital of Italy?",
+          "options": [
+              "Venice",
+              "Rome",
+              "Milan",
+              "Naples"
+          ],
+          "correctOption": "Rome"
+      },
+      {
+          "question": "What is the chemical formula for table salt?",
+          "options": [
+              "H2O",
+              "NaCl",
+              "CO2",
+              "O2"
+          ],
+          "correctOption": "NaCl"
+      },
+      {
+          "question": "Who developed the theory of relativity?",
+          "options": [
+              "Isaac Newton",
+              "Albert Einstein",
+              "Galileo Galilei",
+              "Nikola Tesla"
+          ],
+          "correctOption": "Albert Einstein"
+      },
+      {
+          "question": "What is the largest desert in the world?",
+          "options": [
+              "Sahara Desert",
+              "Gobi Desert",
+              "Arctic Desert",
+              "Antarctic Desert"
+          ],
+          "correctOption": "Antarctic Desert"
+      },
+      {
+          "question": "Which planet is known for its rings?",
+          "options": [
+              "Earth",
+              "Mars",
+              "Jupiter",
+              "Saturn"
+          ],
+          "correctOption": "Saturn"
+      },
+      {
+          "question": "What is the hardest known natural material?",
+          "options": [
+              "Gold",
+              "Iron",
+              "Diamond",
+              "Platinum"
+          ],
+          "correctOption": "Diamond"
+      },
+      {
+          "question": "What is the chemical symbol for gold?",
+          "options": [
+              "Gd",
+              "Au",
+              "Ag",
+              "Pb"
+          ],
+          "correctOption": "Au"
+      },
+      {
+          "question": "What is the capital of Spain?",
+          "options": [
+              "Barcelona",
+              "Madrid",
+              "Seville",
+              "Valencia"
+          ],
+          "correctOption": "Madrid"
+      },
+      {
+          "question": "Which element is represented by the symbol 'He'?",
+          "options": [
+              "Helium",
+              "Hydrogen",
+              "Hafnium",
+              "Holmium"
+          ],
+          "correctOption": "Helium"
+      },
+      {
+          "question": "Who is known as the father of modern physics?",
+          "options": [
+              "Albert Einstein",
+              "Isaac Newton",
+              "Galileo Galilei",
+              "Niels Bohr"
+          ],
+          "correctOption": "Albert Einstein"
+      },
+      {
+          "question": "What is the largest planet in our solar system?",
+          "options": [
+              "Earth",
+              "Mars",
+              "Jupiter",
+              "Saturn"
+          ],
+          "correctOption": "Jupiter"
+      },
+      {
+          "question": "Which organ is responsible for detoxifying the body?",
+          "options": [
+              "Lungs",
+              "Heart",
+              "Liver",
+              "Kidney"
+          ],
+          "correctOption": "Liver"
+      },
+      {
+          "question": "What is the tallest building in the world?",
+          "options": [
+              "Shanghai Tower",
+              "Abraj Al-Bait Clock Tower",
+              "Burj Khalifa",
+              "One World Trade Center"
+          ],
+          "correctOption": "Burj Khalifa"
+      },
+      {
+          "question": "Who wrote 'Pride and Prejudice'?",
+          "options": [
+              "Charlotte Bronte",
+              "Charles Dickens",
+              "Jane Austen",
+              "Mark Twain"
+          ],
+          "correctOption": "Jane Austen"
+      },
+      {
+          "question": "What is the longest bone in the human body?",
+          "options": [
+              "Humerus",
+              "Femur",
+              "Tibia",
+              "Fibula"
+          ],
+          "correctOption": "Femur"
+      },
+      {
+          "question": "Which element has the atomic number 1?",
+          "options": [
+              "Helium",
+              "Hydrogen",
+              "Oxygen",
+              "Carbon"
+          ],
+          "correctOption": "Hydrogen"
+      },
+      {
+          "question": "Which country is the largest by land area?",
+          "options": [
+              "Canada",
+              "China",
+              "Russia",
+              "United States"
+          ],
+          "correctOption": "Russia"
+      },
+      {
+          "question": "Who painted the ceiling of the Sistine Chapel?",
+          "options": [
+              "Leonardo da Vinci",
+              "Michelangelo",
+              "Raphael",
+              "Donatello"
+          ],
+          "correctOption": "Michelangelo"
+      },
+      {
+          "question": "What is the capital of Canada?",
+          "options": [
+              "Toronto",
+              "Ottawa",
+              "Vancouver",
+              "Montreal"
+          ],
+          "correctOption": "Ottawa"
+      },
+      {
+          "question": "Who wrote 'The Odyssey'?",
+          "options": [
+              "Homer",
+              "Virgil",
+              "Sophocles",
+              "Aristotle"
+          ],
+          "correctOption": "Homer"
+      },
+      {
+          "question": "What is the largest bone in the human body?",
+          "options": [
+              "Skull",
+              "Humerus",
+              "Femur",
+              "Spine"
+          ],
+          "correctOption": "Femur"
+      },
+      {
+          "question": "What is the chemical symbol for silver?",
+          "options": [
+              "Si",
+              "Ag",
+              "Au",
+              "Sb"
+          ],
+          "correctOption": "Ag"
+      },
+      {
+          "question": "Which planet is known as the 'Evening Star'?",
+          "options": [
+              "Mercury",
+              "Venus",
+              "Mars",
+              "Jupiter"
+          ],
+          "correctOption": "Venus"
+      },
+      {
+          "question": "Which organ is known as the 'brain' of the computer?",
+          "options": [
+              "CPU",
+              "Hard Drive",
+              "RAM",
+              "Motherboard"
+          ],
+          "correctOption": "CPU"
+      },
+      {
+          "question": "What is the capital of Germany?",
+          "options": [
+              "Berlin",
+              "Munich",
+              "Hamburg",
+              "Frankfurt"
+          ],
+          "correctOption": "Berlin"
+      },
+      {
+          "question": "Which chemical element has the symbol 'C'?",
+          "options": [
+              "Calcium",
+              "Chlorine",
+              "Chromium",
+              "Carbon"
+          ],
+          "correctOption": "Carbon"
+      },
+      {
+          "question": "Who is the author of 'Harry Potter' series?",
+          "options": [
+              "J.R.R. Tolkien",
+              "George R.R. Martin",
+              "J.K. Rowling",
+              "Suzanne Collins"
+          ],
+          "correctOption": "J.K. Rowling"
+      }
+  ]
+}
+
+  

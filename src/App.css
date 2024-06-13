@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+.App{
+  background-color: #454242;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Home{
+  text-align: center;
+}
+
+.Home p, h1{
+  margin: 30px;
+}
+
+.Home input{
+  padding: 10px;
+  width: 90%;
+  border-radius: 10px;
+  border: none;
+  color: Black;
+}
+
+.Home button{
+  padding: 10px 30px;
+  margin: 10px 0;
+  font-size: 18px;
+  color: white;
+  background-color: rgb(82, 79, 79);
+  border: none;
+  cursor: pointer;
+}
+
+.Home button:hover{
+  background-color: rgb(112, 109, 109);
+}
+
+.question{
+  width: 50%;
+  height: 200px;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 10px 10px;
+  overflow: auto;
+  margin-top: 10px;
+}
+
+.no{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.option{
+  width: 50%;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 10px;
+  overflow: auto;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hover:hover{
+  background-color: rgb(158, 158, 158);
+}
+
+.fa-xmark{
+  display: none;
+}
+
+.fa-check{
+  display: none;
+}
+
+.correct{ 
+  background-color: rgba(9, 172, 9, 0.555);
+}
+
+.incorrect {
+  background-color: rgba(255, 36, 7, 0.555);
+}
+
+table,td{
+  border: 2px solid white;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+.result{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  min-height: 90vh;
+}
+
+.result button{
+  padding: 10px 30px;
+  margin: 10px 0;
+  font-size: 18px;
+  color: white;
+  background-color: rgb(82, 79, 79);
+  border: none;
+  cursor: pointer;
+}
+
+.result button:hover{
+  background-color: rgb(112, 109, 109);
+}
+
+.buttons button{
+  margin: 0 10px;
+}
