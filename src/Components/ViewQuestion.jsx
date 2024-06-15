@@ -17,9 +17,9 @@ const ViewQuestion = () => {
 
     async function getData() {
         try {
-            let res = await fetch('http://localhost:3031/quiz');
-            let result = await res.json();
-            const shuffledArray = shuffleArray(result);
+            let res = await fetch('https://666dca027a3738f7cacd5260.mockapi.io/questions/questions');
+            res = await res.json();
+            const shuffledArray = shuffleArray(res);
             const randomTenElements = shuffledArray.slice(0, 10);
             setData(randomTenElements);
         } catch (error) {
