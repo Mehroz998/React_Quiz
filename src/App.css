@@ -23,13 +23,13 @@
   margin: 30px;
 }
 
-.Home input{
+/* .Home input,select{
   padding: 10px;
   width: 90%;
   border-radius: 10px;
   border: none;
   color: Black;
-}
+} */
 
 .Home button{
   padding: 10px 30px;
@@ -61,7 +61,6 @@
 }
 
 .option{
-  width: 50%;
   border: 2px solid white;
   border-radius: 5px;
   margin-top: 10px;
@@ -72,9 +71,9 @@
   justify-content: space-between;
   align-items: center;
 }
-.hover:hover{
+/* .hover:hover{
   background-color: rgb(158, 158, 158);
-}
+} */
 
 .fa-xmark{
   display: none;
