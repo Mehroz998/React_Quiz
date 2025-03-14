@@ -9,33 +9,12 @@ const ViewQuestion = () => {
     let [num , setNum ] = useState(0)
     let [correctColor , setCorrectColor] = useState(false)
     const [timer , setTimer] = useState(15)
+    const [isLoading , setIsLoading] = useState(true)
     const mode = localStorage.getItem('mode').toLowerCase()
     const subject = localStorage.getItem('subject')
     let result;
 
-       // Timer
-       useEffect(() => {
-        if (timer === 0) {
-            toast.error('Opps Timeout ',{
-                position:"top-center",
-                autoClose:1000,
-                pauseOnHover:false   
-            })
-            setCorrectColor(true)
-            setTimeout(()=>{
-                setNum((prev) => prev + 1);
-                setTimer(15) // Automatically go to next question
-                setCorrectColor(false)
-            },2000)
-            return;
-        }
-
-        const sec = setInterval(() => {
-            setTimer(prevTime => prevTime - 1);
-        }, 1000);
-
-        return () => clearInterval(sec); // Cleanup
-    }, [timer]);
+    
     
     let category;
     if(subject === 'History'){
@@ -68,6 +47,7 @@ const ViewQuestion = () => {
             const shuffledArray = shuffleArray(res.results);
             const randomTenElements = shuffledArray.slice(0, 10);
             setData(randomTenElements);
+            setIsLoading(false)
         } catch (error) {
             console.error("Failed to fetch data:", error);
         }
@@ -83,13 +63,39 @@ const ViewQuestion = () => {
         }
     }, [num]);
 
-    if (num >= data.length) {
+       // Timer
+       useEffect(() => {
+        if(isLoading) return
+        if (timer === 0) {
+            toast.error('Opps Timeout ',{
+                position:"top-center",
+                autoClose:1000,
+                pauseOnHover:false   
+            })
+            setCorrectColor(true)
+            setTimeout(()=>{
+                setNum((prev) => prev + 1);// Automatically go to next question
+                setTimer(15) 
+                setCorrectColor(false)
+            },2000)
+            return;
+        }
+
+        const sec = setInterval(() => {
+            setTimer(prevTime => prevTime - 1);
+        }, 1000);
+        return () => clearInterval(sec); // Cleanup
+    }, [timer , isLoading]);
+
+    if (isLoading || num >= data.length || !data[num]) {
         return <div>Loading question...</div>;
     }
+    
 
     if (!data || data.length === 0) {
         return <div>Loading...</div>;
     }
+    
 
     const question = data[num];
     const options = [...question.incorrect_answers , question.correct_answer]

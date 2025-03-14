@@ -47,16 +47,16 @@ const Home = () => {
             <p>Please Enter Information</p>
             <input type="text" className="input input-bordered w-full mb-3 text-black" placeholder='Eg: Mehroz Ali' value={name} onChange={(e)=>setName(e.target.value)}/>
             <select className="select select-bordered w-full text-black mb-3"value={subject} onChange={(e)=>setSubject(e.target.value)}>
-                <option disabled selected className='text-black'>Select Your Subject</option>
-                <option className='text-black'>General Knowledge</option>
-                <option className='text-black'>Computer</option>
-                <option className='text-black'>Mathematics</option>
+                <option value="" disabled selected className='text-black'>Select Your Subject</option>
+                <option value="General Knowledge" className='text-black'>General Knowledge</option>
+                <option value="Computer" className='text-black'>Computer</option>
+                <option value="Mathematics" className='text-black'>Mathematics</option>
             </select>
             <select className="select select-bordered w-full text-black "value={mode} onChange={(e)=>setMode(e.target.value)}>
-                <option disabled selected className='text-black'>Difficulty</option>
-                <option className='text-black'>Easy</option>
-                <option className='text-black'>Medium</option>
-                <option className='text-black'>Hard</option>
+                <option value="" disabled selected className='text-black'>Difficulty</option>
+                <option value="Easy" className='text-black'>Easy</option>
+                <option value="Medium" className='text-black'>Medium</option>
+                <option value="Hard" className='text-black'>Hard</option>
             </select>
             <button onClick={handleStart}>Start</button>
         </div>
